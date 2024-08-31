@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "aiogram-sqlalchemy-template"
+version = "0.0.1"
+description = ""
+authors = ["Abramov Evgeniy <61637662+iriswolf@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+aiogram = "^3.12.0"
+pydantic-settings = "^2.4.0"
+sqlalchemy = "^2.0.32"
+alembic = "^1.13.2"
+asyncpg = "^0.29.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
